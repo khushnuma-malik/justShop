@@ -1,0 +1,98 @@
+.header-logo{
+    width: 100px;
+    width: 80px;
+    margin-right: 20px;
+}
+.header{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #131921;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    padding: 0px 20px;
+}
+.header-bottom{
+    background-color: #232f3e;
+}
+.header-bottom ul{
+    list-style: none;
+    padding: 5px 30px 10px 30px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+.header-bottom ul li{
+    margin-right: 20px;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+
+}
+.header-search{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-radius: 10px;
+}
+.header-search input{
+   
+    height: 20px;
+    padding: 10px;
+    border: 0;
+    outline: 0;
+    width: 80%;
+}
+.header-searchicon{
+    padding: 8px;
+    height: 20px;
+    background-color: #cd9042;
+    
+}
+.header-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-option{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    flex-direction: column;
+}
+.header-optionone{
+    font-size: 10px;
+    color:#fff
+
+}
+.header-optiontwo{
+    margin: 5px;
+    display: block;
+    color: #fff;
+    font-weight: 600;
+}
+.header-optionBasket {
+    display: flex;
+    color: #fff;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.header-optionBasket {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.header-optionBasket span{
+    margin-top: -20px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-color: #fff;
+    color: #000;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 12px;
+}
